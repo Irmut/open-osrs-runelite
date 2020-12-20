@@ -93,7 +93,7 @@ import org.pf4j.update.VerifyException;
 @Singleton
 public class ExternalPluginManager
 {
-	public static final String DEFAULT_PLUGIN_REPOS = "OpenOSRS:https://raw.githubusercontent.com/open-osrs/plugin-hosting/master/;Plugin-Hub:https://raw.githubusercontent.com/owain94/OpenOSRS-RL-hub-hosting/master/";
+	public static final String DEFAULT_PLUGIN_REPOS = "OpenOSRS:https://raw.githubusercontent.com/mithruir/open-osrs-plugins/master/;Plugin-Hub:https://raw.githubusercontent.com/mithruir/open-osrs-plugins-rl-hub/master/;";
 	static final String DEVELOPMENT_MANIFEST_PATH = "build/tmp/jar/MANIFEST.MF";
 
 	public static ArrayList<ClassLoader> pluginClassLoaders = new ArrayList<>();
